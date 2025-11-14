@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | My Website</title>
+    <link rel="stylesheet" href="generalstyles.css">
+    <style>
+        .profile-pic {
+            display: block;
+            margin: 20px auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #007bff;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+    <nav>
+            <ul class="nav_menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-me.html">about me</a></li>
+                <li><a href="contect-me.html">contect me</a></li>
+                <li><a href="blog.html"> blog Page</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-section">
+        
+        <img src="imge/17.jpg" alt="Ahmed Mohamed Abdi Shekhdon" class="profile-pic">
+
+        <h1>Contact Me</h1>
+        <p>Hi! I'm Ahmed Mohamed Abdi (Shekhdon). I’d love to hear from you. Reach out using any of the methods below or send me a message directly.</p>
+        
+        <div class="contact-info">
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/256726927445" target="_blank">+256 726 927 445</a></p>
+            <p><strong>Call:</strong> +256 751 403 984</p>
+            <p><strong>Home Number:</strong> +252 090 683 7033</p>
+            <p><strong>Email:</strong> <a href="mailto:ahmedmohamed2.8.2024@gmail.com">ahmedmohamed2.8.2024@gmail.com</a></p>
+        </div>
+
+        <form action="mailto:ahmedmohamed2.8.2024@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="social-links" style="margin-top:20px;">
+            <p>Follow me on: <a href="https://www.facebook.com/Ahmed.Mohamed.Abdi.shekhdon" target="_blank">Facebook</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Ahmed Mohamed Abdi Shekhdon</p>
+    </footer>
+</body>
+</html>
